@@ -9,7 +9,7 @@ from langchain.memory import ConversationBufferMemory
 app = FastAPI()
 
 # Initialize your Gemini model
-llm = Gemini(model="gemini-pro", api_key="AIzaSyCLNoqwvbQpelCVjez6cSy7ZsP1to5OJY0")
+llm = Gemini(model="gemini-pro", api_key="YOUR_API_KEY")
 
 # Create a conversation chain with memory
 conversation = ConversationChain(
